@@ -1,0 +1,144 @@
+$primary:#203c78;
+$secondary:#9baacb;
+$white: #fff;
+$gray: #9b9b9b;
+
+
+body{
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+  }
+  .overall{
+    width: 100%;
+    display: flex;
+  }
+  .left{
+    width: 40%;
+    margin: 0%;
+    margin-top: 20%;
+    margin-left: 5%;
+  
+  }
+  .lo-head{
+    //   font-weight: 400;
+  }
+  .right{
+    margin-top: 6%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    width : 50%;
+    background-color: white;
+  }
+  .right-side{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .company-logo-register{
+    width: 20%;
+  }
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid $gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #121212;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: $gray;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: $primary;
+    font-weight:700;    
+  }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, $primary,$secondary);
+  border-image-slice: 1;
+}
+/* reset input */
+.form__field{
+  &:required,&:invalid { box-shadow:none; }
+}
+/* demo */
+.full{
+    width: 100%;
+    padding:1.2%;
+}
+.go-si{
+    color: black;
+    &:hover{
+        color: black;
+        
+    }
+}
+.back-go{
+    background-color: lightgrey;
+    margin: 2% 0%;
+    display: flex;
+    
+}
+.lo-btn{
+    margin-bottom: 2%;
+}
+.underline{
+    border-bottom: 1px solid lightgrey;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+}
+.check{
+    margin: 2% 0%;
+}
+.hidden{
+    display: none;
+}
+.go-img-div{
+  width: 5%;
+
+}
+.go-img{
+  width: 50%;
+}
+.go-si-di{
+  margin-left: 35%;
+}
+.upper{
+  padding-bottom: 5%;
+}
