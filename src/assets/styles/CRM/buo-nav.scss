@@ -1,0 +1,55 @@
+.buo-navbar{
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    background-color: black;
+}
+.buo-navbar-white{
+    background-color: white;
+    border-bottom: 1px solid #bdbdbd;
+}
+.company-logo-register{
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 18%;
+}
+.buo-nav-child1{
+    width: 30%;
+}
+.buo-nav-child2{
+    width: 50%;
+}
+.buo-nav-child3{
+    width: 20%;
+}
+.buo-nav-ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    margin-top:1rem
+}
+.dash-nav{
+    display: flex;
+    width: 70%;
+}
+.dash-nav-child1{
+    width: 80%;
+}
+.dash-nav-child2{
+    width: 20%;
+    display: flex;
+    padding-left: 2%;
+}
+.dash-nav-ul{
+    margin-left: 85%;
+    border-right: 2px solid lightgrey;
+}
+.dash-nav-li{
+    margin-right: 30%;
+}
+.dash-name{
+    padding-top: 7%;
+    padding-left: 4%;
+    font-size: large;
+    color: #bdbdbd;
+}

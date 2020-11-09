@@ -142,3 +142,89 @@ body{
 .upper{
   padding-bottom: 5%;
 }
+.p-left{
+  text-align: left;
+  font-size: small;
+}
+.left-soft-ul{
+  list-style-type: none;
+  padding: 0;
+}
+.left-soft-li{
+  padding: 20px 0px 20px 50px;
+  border-bottom: 1px solid #bdbdbd;
+}
+.soft-container{
+  width: 100%;
+  margin: 0 0;
+  display: flex;
+
+}
+.soft-container-left{
+  width: 20%;
+  border-right: 1px solid #bdbdbd;
+}
+.card-icon{
+  width: 8%;
+  margin-right: 5%;
+}
+.soft-container-right{
+  width: 80%;
+}
+.soft-container-right-sides{
+  width: 95%;
+  margin: 0 auto;
+}
+.card-icon-container{
+  display: flex;
+  padding: 5%;
+}
+.card-parent{
+  width: 32%;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.card-para{
+  padding: 5% 10% 10% 18%;
+  border-bottom: 1px solid #e0e0e0;
+}
+.identify{
+  justify-content: space-between;
+}
+.card-icon-down{
+  width: 40%;
+}
+.card-icon1{
+  width: 30%;
+}
+.card-icon2{
+  width: 24%;
+}
+.getst-cb{
+  display: flex;
+}
+.getst-btns{
+  padding: 5% 0%;
+}
+.change-btn{
+  background-color: lightgrey;
+}
+.overall-card-parent{
+  display: flex;
+  width: 100%;
+}
+.card-right{
+  margin-right: 2%;
+}
+.empty-nav{
+  margin : 2% 0%;
+  padding: 8%;
+  background-color: white;
+  border-radius: 1%;
+  border: 1px solid #e0e0e0;
+}
+.left-soft-li:hover{
+  background-color: white;
+  font-weight: bold;
+}

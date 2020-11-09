@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+
+
+
+  /* v2 */
+/* .field_v2 .field__label-wrap{
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.field_v2 .field__label-wrap::after{
+  border-bottom: var(--uiFieldBorderWidth) solid var(--uiFieldBorderColorActive);
+  transform: translate3d(-105%, 0, 0);
+  will-change: transform, opacity;
+  transition: transform .285s ease-out .2s, opacity .2s ease-out .2s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.field_v2 .field__input:focus ~ .field__label-wrap::after{
+  transform: translate3d(0, 0, 0);
+  transition-delay: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+.field__input{
+  width: 100%;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

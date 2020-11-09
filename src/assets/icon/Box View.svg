@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g>
+    <rect width="8.333" height="8.333" x=".5" y=".5" fill="none" stroke="rgb(87,87,86)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" rx="0" ry="0" transform="rotate(-90.000032 4.66666667 4.66666667)"/>
+    <rect width="8.333" height="8.333" x="12.167" y=".5" fill="none" stroke="rgb(87,87,86)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" rx="0" ry="0" transform="rotate(-90.000032 16.33333333 4.66666667)"/>
+    <rect width="8.333" height="8.333" x=".5" y="12.167" fill="none" stroke="rgb(87,87,86)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" rx="0" ry="0" transform="rotate(-90.000032 4.66666667 16.33333333)"/>
+    <rect width="8.333" height="8.333" x="12.167" y="12.167" fill="none" stroke="rgb(87,87,86)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" rx="0" ry="0" transform="rotate(-90.000032 16.33333333 16.33333333)"/>
+  </g>
+</svg>
